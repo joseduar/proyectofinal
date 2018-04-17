@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.unadeca.ana.myrest.util.Pedidos"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+
+        <EditText
+            android:id="@+id/NombreComprador"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Nombre del comprador"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+
+        <EditText
+            android:id="@+id/PedidoDetallado"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Detallar Pedido"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/Direccion"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hint="Dirección"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/NumTel"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:hint="Número de teléfono"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <Button
+            android:onClick="EnvPedido"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/butunjose"
+            android:text="Enviar Pedido"
+            android:textColor="@color/darkRed" />
+        <Button
+            android:onClick="MostrarPedidos"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/butunjose"
+            android:text="Mostrar Pedido"
+            android:textColor="@color/darkRed" />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
